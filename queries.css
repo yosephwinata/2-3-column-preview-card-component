@@ -1,0 +1,14 @@
+/**************************/
+/* BELOW 976px */
+/**************************/
+@media (max-width: 61em) {
+  html,
+  body {
+    height: auto;
+  }
+
+  .container {
+    display: block;
+    margin: 8.8rem auto;
+  }
+}

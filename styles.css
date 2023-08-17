@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  /* Change the default font-size to 10px */
+  /* Browser's default font-size is 16px */
+  /* So, 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  background-color: hsl(0, 0%, 95%);
+  color: hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.card {
+  width: 30.7rem;
+  height: 50rem;
+  padding: 4.8rem 4.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card-suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.icon {
+  margin-bottom: 3.5rem;
+}
+
+.heading-primary {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 4rem;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+/* .description {
+  line-height: 2.5;
+} */
+
+.btn {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 1.2rem 3.2rem;
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 25px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.btn-sedans {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-sedans:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.btn-suvs {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-suvs:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.btn-luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn-luxury:hover {
+  background-color: hsl(179, 100%, 13%);
+}
