@@ -75,6 +75,7 @@ body {
   padding: 1.2rem 3.2rem;
   border: 2px solid hsl(0, 0%, 95%);
   border-radius: 25px;
+  transition: all 0.3s;
 }
 
 .btn:hover {
